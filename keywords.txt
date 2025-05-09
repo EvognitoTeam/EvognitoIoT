@@ -1,0 +1,11 @@
+# Class Definition
+EvognitoIoT    KEYWORD1
+
+# Main Function
+begin          KEYWORD2
+loop           KEYWORD2
+isConnected    KEYWORD2
+getLocalIP     KEYWORD2
+setupAP        KEYWORD2
+setupWebPortal KEYWORD2
+connectToSavedWiFi KEYWORD2

@@ -1,0 +1,5 @@
+DNSServer>=1.1.0
+SPIFFS>=1.0.0
+Preferences>=2.0.0
+WiFi>=1.0.0
+WebServer>=1.0.0
