@@ -1,0 +1,41 @@
+{
+    "name": "EvognitoIoT",
+    "version": "1.0.2",
+    "keywords": ["wifi", "iot", "esp32", "captive portal", "evognito"],
+    "description": "Custom WiFiManager-like library for ESP32 to manage WiFi connection with a captive portal.",
+    "repository":
+    {
+      "type": "git",
+      "url": "https://github.com/EvognitoTeam/EvognitoIoT.git"
+    },
+    "authors":
+    [
+      {
+        "name": "Evognito Team",
+        "email": "chat.evognitoteam@gmail.com",
+        "url": "https://evognito.my.id",
+        "maintainer": true
+      }
+    ],
+    "license": "MIT",
+    "frameworks": ["arduino"],
+    "platforms": ["espressif32"],
+    "dependencies": [
+      {
+        "name": "DNSServer"
+      }
+    ],
+    "build": {
+      "flags": ["-DESP32"]
+    },
+    "export": {
+      "include": [
+        "src",
+        "examples",
+        "library.json",
+        "LICENSE",
+        "README.md"
+      ]
+    }
+  }
+  
