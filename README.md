@@ -17,20 +17,8 @@
 
 ---
 
-## 🚀 Cara Penggunaan
-
-### 1. Tambahkan library ke project kamu
-
-#### PlatformIO:
-
-Tambahkan ke `platformio.ini`:
-
-```ini
-lib_deps =
-  https://github.com/evognito/EvognitoIoT.git
-```
-
 ## License
 
-This project is licensed under the [Creative Commons Attribution-NonCommercial 4.0 International License](https://creativecommons.org/licenses/by-nc/4.0/).  
-You are free to use and modify this library for personal and educational purposes, but **not for commercial use**.
+This project is licensed under the [GNU General Public License v3.0](https://www.gnu.org/licenses/gpl-3.0.html).
+
+You are free to use, modify, and distribute this library under the terms of the GPLv3. Any derivative work must also be open-sourced under the same license.
